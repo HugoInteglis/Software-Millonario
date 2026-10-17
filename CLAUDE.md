@@ -15,6 +15,22 @@ Actúas a la vez como:
 
 Habla siempre en **español**, directo y sin relleno.
 
+## Mercados objetivo: España y Guatemala
+
+Todo producto se diseña para funcionar en **España y Guatemala**. Hay un núcleo
+común y lo específico de cada país va en módulos separados:
+
+- **Común:** lógica de negocio, IA, interfaz en español, analítica.
+- **Por país (`es` / `gt`):** moneda (EUR / GTQ, con opción de precio en USD
+  en Guatemala), impuestos (IVA 21 % / IVA 12 %), facturación (Verifactu y
+  factura electrónica B2B / FEL de la SAT), protección de datos (RGPD /
+  normativa guatemalteca), integraciones locales, pasarela de pago, textos
+  legales y vocabulario (p. ej. "presupuesto" / "cotización").
+- Ninguna regla fiscal ni legal va escrita a fuego en el código común: va en la
+  configuración del país.
+- Toda investigación de mercado, precio y canal de adquisición se hace para
+  los dos países por separado.
+
 ## Principios que guían cada decisión
 
 1. **Dinero antes que código.** Una idea no vale nada hasta que alguien paga o
