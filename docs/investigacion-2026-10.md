@@ -127,3 +127,85 @@ Lo detectaron por separado dos de las cuatro líneas de investigación.
 - Varias cifras vienen de blogs de vendedores y están marcadas como [S].
 - Ninguna idea se considera validada hasta que haya clientes que paguen en el
   experimento de validación.
+
+---
+
+# Guatemala — evaluación de finalistas (17-10-2026)
+
+Leyenda: [D] = dato con fuente · [S] = suposición pendiente de validar.
+
+## 1. Reactivar presupuestos (clínicas) — Pivotar: segundo mercado tras España
+
+- **Tamaño del mercado:**
+  - ~3.110 odontólogos colegiados, 1.922 activos [D, documento sin fecha]
+    ([Colegio Estomatológico](https://colegioestomatologico.gt/)).
+  - ~1.200–2.000 clínicas privadas; solo 300–600 con volumen suficiente de
+    tratamientos caros [S].
+- **Precio de los tratamientos:**
+  - Implante: Q6.000–15.000.
+  - Brackets: Q15.000–30.000, pagados con enganche más cuotas [D]
+    ([livinginguatemala](https://livinginguatemala.com/es/precios-servicios/implante-dental-guatemala/)).
+- **Uso de WhatsApp:** el 57 % lo usa como medio principal de comunicación [D].
+- **Competencia:**
+  - Dentiqa: chatbot de WhatsApp para LATAM, desde 89 USD/mes [D].
+  - Doctocliq y AgendaPro: agendas.
+  - Ninguno ofrece un panel de "dinero recuperado".
+- **Precio:** 79–99 USD/mes, o una cuota fija más un % de lo recuperado [S].
+- **Problema:** 10 k USD de MRR solo con Guatemala exigiría ~101 clínicas, el
+  17–34 % del mercado útil. Funciona como mercado complementario, no
+  principal.
+
+## 2. Licitaciones (Guatecompras) — Pivotar: experimento lateral barato
+
+- **Datos públicos:** OCDS abiertos con licencia CC BY 4.0, descargables en
+  JSON y CSV ([descarga](https://ocds.guatecompras.gt/descarga-datos)).
+  Entre 2020 y 2026: ~1,8 M procesos, 1,42 M adjudicaciones y 99.654
+  contratos [D]. Incluyen el NIT del adjudicatario, así que sirven como lista
+  de outbound.
+- **Proveedores:** más de 100 k inscritos en el RGAE [S]. Desde 2025 deben
+  actualizar su inscripción cada año e informar de sus accionistas (Acuerdo
+  Gubernativo 208-2024) [D].
+- **Competencia:** no se encontraron herramientas privadas de alertas ni de
+  preparación de ofertas [D].
+- **Riesgos:**
+  - Baja disposición a pagar.
+  - Peso alto de la compra directa y de las relaciones personales.
+  - La iniciativa 6688, una nueva Ley de Contrataciones, está pendiente del
+    pleno ([Infobae](https://www.infobae.com/guatemala/2026/08/11/el-congreso-de-guatemala-avanza-hacia-una-nueva-ley-de-contrataciones-del-estado/)).
+- **Producto posible:** un "Kit proveedor del Estado" (cumplimiento RGAE,
+  alertas, documentación) por 29–49 USD/mes.
+
+## 3. FEL — Descartar
+
+Mercado saturado de certificadores (Q50–500 al mes) y la SAT ofrece una
+herramienta gratuita [D].
+
+## Aspectos prácticos de Guatemala
+
+- **Pagos:**
+  - Stripe **no** acepta empresas guatemaltecas [D]
+    ([stripe.com/global](https://stripe.com/global)).
+  - Opción inicial: cobrar desde una entidad española con Stripe, en USD.
+    Comisión del 3,15 % + 0,25 €, más un 2 % de conversión de divisa [D].
+    Puede haber más rechazos de tarjetas [S], así que conviene ofrecer pago
+    anual.
+  - Alternativa local: Recurrente (4,5 % + Q2), que probablemente requiere
+    entidad guatemalteca [S].
+- **Impuestos:**
+  - Facturar desde España sin IVA (servicio B2B fuera de la UE) [S].
+  - Posible retención de ISR del 15 % en pagos a no residentes [D].
+  - Validar ambos puntos con un asesor.
+- **Protección de datos:** no hay ley general; la iniciativa 6464 está en
+  trámite [D]. Se aplica el estándar del RGPD a los datos de pacientes en los
+  dos países.
+
+## Conclusión para España + Guatemala
+
+**Núcleo común recomendado:** un motor de seguimiento por WhatsApp e IA con
+panel de dinero recuperado (idea 1).
+
+- **España:** mercado principal (más de 23.000 clínicas).
+- **Guatemala:** se lanza con unas 20 clínicas de pago en España. Adaptación:
+  precios en USD, guion de enganche y cuotas, y WhatsApp como canal principal.
+- **Licitaciones:** se mantiene como experimento lateral barato (alertas), no
+  como producto principal.

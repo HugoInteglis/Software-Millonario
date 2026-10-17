@@ -11,6 +11,9 @@ Detalle, evidencias y fuentes en [`investigacion-2026-10.md`](investigacion-2026
 | 2026-10-14 | Pedidos de WhatsApp → ERP para distribuidores ("Choco en español") | 3 | 4 | 3 | 4 | 3 | 2 | 4 | 23 | Pivotar | 10 llamadas a distribuidores para medir volumen de pedidos por WhatsApp |
 | 2026-10-14 | Captación propia para consultas sanitarias (salir de Doctoralia) | 3 | 3 | 4 | 3 | 4 | 4 | 2 | 23 | Pivotar | Riesgo de ser una agencia disfrazada |
 | 2026-10-14 | Bandeja de facturas recibidas B2B para gestorías (ley 2027-28) | 3 | 3 | 4 | 2 | 4 | 2 | 3 | 21 | En observación | Revisar cuando se publique la especificación técnica final |
+| 2026-10-17 | Reactivar presupuestos — **Guatemala** (mercado secundario) | 4 | 3 | 2 | 4 | 4 | 3 | 3 | 23 | Pivotar (2.º mercado) | Lanzar con ~20 clínicas de pago en España; piloto 99 USD con 40 clínicas de la capital |
+| 2026-10-17 | Kit proveedor del Estado / alertas — **Guatemala** (Guatecompras) | 3 | 2 | 4 | 5 | 4 | 4 | 2 | 24 | Pivotar (experimento lateral) | Landing de alertas a 29 USD para 300 adjudicatarios sacados de OCDS; descartar si paga menos del 2 % |
+| 2026-10-17 | FEL Guatemala | — | — | — | 1 | — | — | — | — | Descartar | Mercado saturado de certificadores y herramienta gratuita de la SAT |
 | 2026-10-14 | Kit AI Act para pymes | 2 | 2 | 3 | 3 | 3 | 4 | 2 | 19 | Pivotar | Solo como complemento |
 | 2026-10-14 | Vídeo/UGC con IA, webs locales, gestión de reseñas, AI SDR outbound | — | — | — | 1 | — | — | 1 | — | Descartar | Mercados saturados o absorbidos por Google/Meta/HubSpot |
 | 2026-10-14 | Recepcionista telefónica IA genérica | — | — | — | 1 | — | — | 1 | — | Descartar | Saturado; Meta Business Agent en WhatsApp |
