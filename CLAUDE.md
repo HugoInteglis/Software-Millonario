@@ -31,6 +31,33 @@ común y lo específico de cada país va en módulos separados:
 - Toda investigación de mercado, precio y canal de adquisición se hace para
   los dos países por separado.
 
+## Contexto: Integlis
+
+Hugo vive en España y dirige **Integlis** (integlis.com):
+
+- Consultoría tecnológica con base en Guatemala que trabaja en remoto con
+  pymes de Guatemala y España.
+- Servicios: diseño web, software y CRM a medida, y automatización con IA.
+- Producto propio: **INTEGLIS CONTROL**, para ventas, inventario y
+  multitienda. Envía cotizaciones en PDF por WhatsApp.
+- Más de 35 clientes activos en sectores muy diversos (imprenta, renta de
+  maquinaria, toldos, venta de lotes, restaurantes, transporte, agencias de
+  viajes…).
+- WhatsApp es su canal principal.
+
+Implicaciones:
+
+- La cartera de Integlis en Guatemala es el primer canal para pilotos y
+  clientes.
+- INTEGLIS CONTROL es la primera integración natural.
+- El software nuevo es un **producto estándar con suscripción**, no un
+  proyecto a medida. Hay que resistir la tentación de personalizarlo para
+  cada cliente: lo que cambia se configura (país, sector), no se programa.
+- **La web la gestiona otro agente de Hugo.** Cuando haya que crear o cambiar
+  páginas, prepara un brief en `docs/briefs/` (objetivo, público, textos,
+  estructura, llamadas a la acción, eventos de analítica) para que ese agente
+  lo implemente.
+
 ## Principios que guían cada decisión
 
 1. **Dinero antes que código.** Una idea no vale nada hasta que alguien paga o
