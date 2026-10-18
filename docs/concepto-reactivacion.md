@@ -1,16 +1,76 @@
-# Concepto: recuperar presupuestos no aceptados en clínicas
+# Concepto: recuperar presupuestos y cotizaciones no aceptados
 
-> Borrador de trabajo (17-10-2026). Nada de esto está validado con clientes.
-> [S] = suposición pendiente de comprobar.
+> Borrador de trabajo (actualizado el 18-10-2026). Nada de esto está validado
+> con clientes. [S] = suposición pendiente de comprobar.
 
 ## Qué es, en una frase
 
-Un sistema que hace seguimiento a cada paciente que recibió un presupuesto y
-no lo aceptó. Responde sus dudas, le ofrece facilidades de pago y avisa a la
-clínica cuando el paciente está listo para agendar. Todo se mide en euros (o
-quetzales) recuperados.
+Un sistema que hace seguimiento a cada presupuesto o cotización que un negocio
+envía y su cliente no acepta. Responde sus dudas, le ofrece facilidades de
+pago y avisa al negocio cuando el cliente está listo para cerrar. Todo se mide
+en euros (o quetzales) recuperados.
 
-## Por qué el paciente no acepta (lo que el seguimiento debe resolver)
+## Enfoque: producto horizontal, entrada por sectores
+
+El motor sirve para **cualquier negocio que envía presupuestos**. Lo que cambia
+en cada sector se configura en un **"playbook"**:
+
+- vocabulario;
+- objeciones típicas;
+- secuencia de mensajes;
+- opciones de pago;
+- ticket medio.
+
+De esta forma, el producto no queda atado a un solo sector.
+
+**Lanzamiento:** se prueban **3 sectores en paralelo** con el piloto manual y
+se decide con datos cuál se usa para la primera campaña de marketing.
+
+### Criterios para elegir un sector
+
+1. Ticket alto (más de 500 €).
+2. Muchos presupuestos al mes.
+3. Una decisión del cliente que no es inmediata.
+4. Seguimiento actual flojo.
+5. Un decisor fácil de contactar.
+
+### Sectores candidatos
+
+| Sector | Ticket típico | País fuerte | Notas |
+|---|---|---|---|
+| Clínicas dentales y estéticas | 1.000–5.000 € [S] | ES + GT | El más investigado. Datos de salud: más requisitos legales |
+| Reformas e instalaciones (cocinas, baños, ventanas, solar, climatización) | 3.000–20.000 € [S] | ES (GT: construcción) | Muchos presupuestos. Cliente sensible al precio |
+| Empresas B2B que cotizan a empresas (distribuidores, servicios industriales, imprentas, eventos corporativos) | Variable, recurrente | GT + ES | Cultura de "cotización" muy fuerte en Guatemala [S] |
+| Eventos y bodas, academias y formación, talleres, seguros | Variable | ES + GT | Reserva para siguientes sectores |
+
+### Entrada de presupuestos sin integraciones
+
+Para que funcione en cualquier sector desde el primer día:
+
+1. **Reenvío por email.** El negocio reenvía el PDF del presupuesto a una
+   dirección propia (por ejemplo, `presupuestos@...`). La IA extrae el
+   cliente, el teléfono, el importe y el concepto.
+2. **Subida de Excel o CSV** exportado de su programa.
+3. **Alta rápida desde el móvil.**
+
+Las integraciones con programas concretos (Holded, STEL Order, Odoo, Gesden…)
+vienen después, según el sector que gane.
+
+### Competencia al ser horizontal
+
+- **CRMs y programas de facturación con presupuestos:** HubSpot, Pipedrive,
+  Holded, STEL Order, Odoo. Envían presupuestos y algunos mandan
+  recordatorios por email.
+- **Diferencia:** conversación por WhatsApp con IA, playbooks por sector,
+  grupo de control y € recuperados.
+- **Riesgo:** quedarse en "una función más" de esas herramientas. Es más alto
+  que en el enfoque solo para clínicas.
+
+---
+
+## Ejemplo de playbook: clínicas dentales
+
+### Por qué el paciente no acepta (lo que el seguimiento debe resolver)
 
 | Motivo | Respuesta del sistema |
 |---|---|
