@@ -1,4 +1,4 @@
-# Concepto: recuperar presupuestos y cotizaciones no aceptados
+# Concepto: Acéptalo by Integlis — recuperar presupuestos y cotizaciones no aceptados
 
 > Borrador de trabajo (actualizado el 18-10-2026). Nada de esto está validado
 > con clientes. [S] = suposición pendiente de comprobar.

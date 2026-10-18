@@ -8,3 +8,4 @@
 | 2026-10-18 | Sectores del piloto: clínicas dentales/estéticas, reformas e instalaciones, y empresas B2B que cotizan | Aprobado por Hugo |
 | 2026-10-18 | Piloto en España en persona (Hugo vive allí) y en Guatemala con la cartera de clientes de Integlis | Aprovechar la presencia física en ES y la confianza ya ganada en GT |
 | 2026-10-18 | Producto estándar por suscripción y separado de los servicios a medida de Integlis | Que sea escalable y vendible; lo que cambia se configura, no se programa |
+| 2026-10-18 | Nombre del producto: **Acéptalo by Integlis** (dominio principal aceptalo.app) | Elegido por Hugo. Orientado al resultado, sirve en ES y GT; "by Integlis" aporta confianza |

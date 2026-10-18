@@ -58,6 +58,21 @@ Implicaciones:
   estructura, llamadas a la acción, eventos de analítica) para que ese agente
   lo implemente.
 
+## Producto actual: Acéptalo by Integlis
+
+Software que hace seguimiento a los presupuestos y cotizaciones que no se han
+aceptado:
+
+- WhatsApp más IA.
+- Avisa al negocio cuando el cliente está listo para cerrar.
+- Panel de € recuperados medido contra un grupo de control.
+
+Es horizontal, con un playbook por sector. Sectores del piloto: clínicas
+dentales y estéticas, reformas e instalaciones, y empresas B2B que cotizan.
+
+En la marca y los textos se escribe "Acéptalo"; en código, dominios y rutas,
+`aceptalo`. Detalle en `docs/concepto-reactivacion.md` y `docs/nombre.md`.
+
 ## Principios que guían cada decisión
 
 1. **Dinero antes que código.** Una idea no vale nada hasta que alguien paga o

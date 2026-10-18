@@ -1,6 +1,27 @@
 # Nombre del producto
 
-Estado: **propuesta pendiente de decisión de Hugo** (18-10-2026).
+Estado: **decidido el 18-10-2026 → Acéptalo by Integlis**.
+
+## Decisión
+
+- **Marca:** Acéptalo, con el respaldo "by Integlis".
+- **Escritura:** con tilde en la marca y los textos. Sin tilde en dominios y
+  rutas técnicas (`aceptalo`).
+- **Dominios** (comprobados por RDAP el 18-10-2026):
+  - Libres: aceptalo.app, getaceptalo.com, aceptalo.io, aceptalo.co,
+    aceptalo.net.
+  - Ocupado: aceptalo.com.
+  - Por comprobar en un registrador: .es y .com.gt.
+- **A registrar:** aceptalo.app (principal) y getaceptalo.com (para correo y
+  como respaldo). Si están libres, también aceptalo.es y aceptalo.com.gt.
+- **Búsqueda web:** no aparece ninguna app ni marca "Acéptalo" para
+  presupuestos. Esto **no sustituye** la búsqueda en OEPM, EUIPO y el
+  Registro de la Propiedad Intelectual de Guatemala.
+- **Lema provisional:**
+  - ES: *"Convierte presupuestos en clientes."*
+  - GT: *"Convierte cotizaciones en clientes."*
+
+## Análisis previo
 
 ## Criterios
 
